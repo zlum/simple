@@ -51,7 +51,7 @@ int main()
     A a;
     A b{};
 
-    a = b;
+    a = std::move(b);
 
 //    cout << *a.var << endl;
 
