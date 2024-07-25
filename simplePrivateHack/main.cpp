@@ -1,5 +1,5 @@
 #include "simpleClass.hpp"
-#include "hackerLib/hacker.h"
+#include "hacker.h"
 
 int main()
 {

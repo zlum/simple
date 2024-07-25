@@ -1,4 +1,1 @@
-add_executable(main simpleClass.hpp main.cpp)
-add_subdirectory(hackerLib hackerLib)
-
-target_link_libraries(main hackerLib)
+add_executable(main hacker.cpp hackerClass.hpp simpleClass.hpp main.cpp)
